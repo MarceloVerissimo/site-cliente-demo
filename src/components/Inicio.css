@@ -1,22 +1,25 @@
 .inicio {
+    background: #fff;
     display: flex;
     align-items: center;
-    padding: 4rem 8%;
-    gap: 2rem;
+    padding: 6rem 8%;
+    gap: 3rem;
     justify-content: space-between;
 }
 
 .slogan-text {
-  flex: 1;
-  max-width: 500px; /* controla largura do texto */
+  flex: 1;/* controla largura do texto */
 }
 
 .slogan-text h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 48px;
+  font-size: 4rem;
+  margin-left: 130px;
+  color: #1a2a3a; /*Cor do Slogan */
   line-height: 120%;
   margin-bottom: 1rem;
-  letter-spacing: 0px;
+  max-width: 500px;
+  letter-spacing: -1px;
 }
 
 .slogan-text p {
@@ -31,18 +34,20 @@
 }
 
 .b1 button {
-  background: #FBC02D;
+  background: #cfa84c; /* dourado elegante */
   color: #fff;
   border: none;
   padding: 1rem 2rem;
-  border-radius: 8px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
   cursor: pointer;
-  font-size: 1.1rem;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
   transition: background 0.3s ease;
 }
 
 .b1 button:hover {
-  background: 	#B8860B;
+  background: #b38f3a;
 }
 
 .img1 {
@@ -53,6 +58,9 @@
 
 .img1 img {
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   border-radius: 12px;
+  box-shadow: 0 20px 1000px rgba(0,0,0,0.1);
+  background: #DCDCDC;
+  padding: 0.5rem; 
 }
