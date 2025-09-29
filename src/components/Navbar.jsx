@@ -1,16 +1,28 @@
-import React from 'react'
+import React from 'react';
+import { FaChartLine } from "react-icons/fa";
+import './Navbar.css';
 
 function Navbar() {
   return (
     <header>
         <nav className='navbar'>
-            <div className='logo'>Mentoria Lucro Claro</div>
-            <ul className='nav-link'>
+            <div className='navbar-container'>
+              <FaChartLine className="logo-icon" />
+              <div className='logo'>
+                <span className='logo-name'>MENTORIA</span> 
+                <br />
+                LUCRO CLARO
+              </div>
+
+              <ul className='nav-link'>
+                <li><a href="#inicio">Início</a></li>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#beneficios">Sobre</a></li>
-                <li><a href="#depoimentos">Sobre</a></li>
-                <li><a href="#contato">Sobre</a></li>
-            </ul>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+              </ul>
+
+            </div>
         </nav>
     </header>    
   )
