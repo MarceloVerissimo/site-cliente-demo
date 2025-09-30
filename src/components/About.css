@@ -1,0 +1,41 @@
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 6rem 8%;
+  background: #f9f8f6; /* tom claro, levemente bege/cinza */
+}
+
+.sobre-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.sobre-img img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.sobre-content {
+  flex: 1;
+}
+
+.sobre-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a2a3a;
+  margin-bottom: 1.5rem;
+  margin-right: 3rem;
+}
+
+.sobre-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #3a4a5a;
+  max-width: 500px;
+  margin-left: 3rem;
+}

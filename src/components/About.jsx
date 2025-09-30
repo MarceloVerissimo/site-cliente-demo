@@ -1,12 +1,19 @@
 import React from 'react'
+import './About.css';
 
 function About() {
   return (
     <section id='sobre' className='sobre'>
+      <div className='sobre-img'>
+          <img src="img3.jpg" alt="Nathalia Verissimo" />
+      </div>
+
+      <div className='sobre-content'>
         <h2>Sobre</h2>
-        <p>Eu sou <strong>Nathália Verissimo</strong>, mentora financeira para lojistas.
-        Minha missão é trazer clareza financeira e organização administrativa,
-        ajudando empresas a alcançarem um lucro sustentável.</p>
+        <p>Eu sou <strong>Nathalia Veríssimo</strong>, mentora financeira para lojistas. Com mais de
+      uma década de experiência em gestão financeira, ajudo lojistas PJ a
+      alcançar lucros sustentáveis e crescimento sólido.</p>
+      </div>
     </section>
   )
 }
