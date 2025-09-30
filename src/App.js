@@ -5,6 +5,7 @@ import Depoimentos from './components/Depoimentos';
 import Footer from './components/Footer';
 import Inicio from './components/Inicio';
 import Navbar from './components/Navbar';
+import Beneficios from './components/Beneficios';
 
 
 
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Inicio />
       <About />
+      <Beneficios />
       <Depoimentos />
       <Contato />
       <Footer />
