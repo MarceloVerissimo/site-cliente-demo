@@ -4,7 +4,7 @@ import "./Beneficios.css";
 
 const Beneficios = () => {
   return (
-    <section className="beneficios">
+    <section id='beneficios' className="beneficios">
       <h2 className="beneficios-title">Benefícios</h2>
       <div className="beneficios-grid">
         <div className="beneficio-item">
