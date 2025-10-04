@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Inicio from './components/Inicio';
 import Navbar from './components/Navbar';
 import Beneficios from './components/Beneficios';
+import LucroClaro from './components/LucroClaro';
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Inicio />
       <About />
+      <LucroClaro />
       <Beneficios />
       <Depoimentos />
       <Contato />

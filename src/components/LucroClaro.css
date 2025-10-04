@@ -1,0 +1,47 @@
+.mentorialucro {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #ffff;
+}
+
+.h2-mentoria {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1e3354; /* Azul escuro do projeto */
+    margin-bottom: 60px;
+}
+
+.boxtotal{
+    display: flex;
+    padding: 200;
+    text-align: center;
+    width: 1550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1 {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #3a4a5a;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-left: 15rem;
+}
+
+.box2 {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #3a4a5a;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-left: 15rem;
+}
+
+.sobrementoria-icon {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #cfa84c; /*Dourado logo */
+}
