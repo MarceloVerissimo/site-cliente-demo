@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState } from "react";
 import { FiMail, FiPhone, FiMapPin } from "react-icons/fi";
 import "./Contato.css";
@@ -44,10 +43,10 @@ export default function Contato() {
         console.error("Erro envio:", data);
         setStatus({ type: "error", message: data?.error || "Erro ao enviar mensagem. Tente mais tarde." });
       }
-    } catch (err) {
+      } catch (err) {
       console.error(err);
       setStatus({ type: "error", message: "Erro de conexão. Tente novamente mais tarde." });
-    } finally {
+      } finally {
       setLoading(false);
     }
   }
@@ -81,30 +80,31 @@ export default function Contato() {
             </form>
 
             <aside className='contato-info'>
+              <h3 className="h3-msg">Outras formas de contato:</h3>
               <p className='contato-msg'>
                 Estou aqui para ajudar você a transformar seu negócio. Entre em contato e vamos conversar sobre como podemos trabalhar juntos.
               </p>
 
               <div className='media-item'>
-                <FiMail size={18} className='contato-icon'/>
-                <div>
-                  <strong>Email</strong>
+                <FiMail size={30} className='contato-icon'/>
+                <div className="media-texto">
+                  <strong className="strong">Email</strong>
                   <div>contato@mentorialucroclaro.com.br</div>
                 </div>
               </div>
 
               <div className='media-item'>
-                <FiPhone size={18} className='contato-icon'/>
-                <div>
-                  <strong>Telefone</strong>
+                <FiPhone size={30} className='contato-icon'/>
+                <div className="media-texto">
+                  <strong className="strong">Telefone</strong>
                   <div>(21)99999-9999</div>
                 </div>
               </div>
 
               <div className='media-item'>
-                <FiMapPin size={18} className='contato-icon'/>
-                <div>
-                  <strong>Localização</strong>
+                <FiMapPin size={30} className='contato-icon'/>
+                <div className="media-texto">
+                  <strong className="strong">Localização</strong>
                   <div>Rio de Janeiro, RJ </div>
                 </div>
               </div>

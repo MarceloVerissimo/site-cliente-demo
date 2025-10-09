@@ -1,0 +1,120 @@
+.contato {
+    padding: 60px 6%;
+    background: #f9f8f6; /*Bege do projeto */
+}
+
+.h2-titulo {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1e3354; /* Azul escuro do projeto */
+    margin-bottom: 60px;
+}
+
+.contato-div {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 100px;
+  align-items: start;
+}
+
+.contato-form {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contato-form label span {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333333;
+  font-weight: 600;
+}
+
+.contato-form input,
+.contato-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #e2e2e2;
+  font-size: 15px;
+  color: #333;
+  background: #fff;
+  outline: none;
+}
+
+.contato-form input:focus,
+.contato-form textarea:focus {
+  border-color: #cfcfcf;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.btn-enviar {
+  width: fit-content;
+  background: #cfa84c; /* dourado */
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  transition: background 0.3s ease;
+}
+
+.btn-enviar:hover {
+  background: #b38f3a;
+}
+
+.btn-enviar:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.contato-info {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.h3-msg {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: #3a4a5a;
+    max-width: 500px;
+    margin-left: 3rem;
+    text-decoration: underline;
+}
+
+.contato-msg {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #3a4a5a;
+    max-width: 500px;
+    margin-left: 3rem;
+}
+
+.media-item {
+    display: flex;
+    background: transparent;
+}
+
+.contato-icon {
+    color: #b8902e; /* tom dourado */
+}
+
+.media-texto {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #3a4a5a;
+    max-width: 500px;
+    margin-left: 3rem;
+}
+
+.strong {
+    margin-right: 100%;
+}
