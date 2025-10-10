@@ -10,9 +10,7 @@ function About() {
 
       <div className='sobre-content'>
         <h2>Sobre Mim</h2>
-        <p>Eu sou <strong>Nathalia Veríssimo</strong>, mentora financeira para lojistas. Com mais de
-      uma década de experiência em gestão financeira, ajudo lojistas PJ a
-      alcançar lucros sustentáveis e crescimento sólido.</p>
+        <p>Eu sou <strong>Nathalia Veríssimo</strong>, Comecei minha jornada empreendendo na loja da minha família e vivi na pele a dificuldade de lidar com o financeiro sem clareza. Me formei em Administração e descobri minha paixão por finanças empresariais. Percebi que muitos empreendedores passam pelo mesmo: trabalham muito, vendem bem, mas nunca veem o lucro real. Por isso, criei minha mentoria: para ensinar de forma simples e prática como organizar o financeiro e ter lucro de verdade. Hoje curso Contabilidade para me aprofundar ainda mais e continuar ajudando empreendedores a construírem negócios lucrativos e leves.</p>
       </div>
     </section>
   )

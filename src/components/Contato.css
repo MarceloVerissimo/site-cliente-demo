@@ -30,7 +30,7 @@
   display: block;
   font-size: 14px;
   margin-bottom: 8px;
-  color: #333333;
+  color: #1e3354;
   font-weight: 600;
 }
 
@@ -117,4 +117,5 @@
 
 .strong {
     margin-right: 100%;
+    color: #b8902e;
 }

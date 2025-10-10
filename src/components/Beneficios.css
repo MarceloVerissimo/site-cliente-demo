@@ -42,7 +42,13 @@
 }
 
 .beneficio-text {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: #1e3354;
+}
+
+.beneficio-p {
+    font-size: 1rem;
+    font-weight: 100;
+    color: #3a4a5a;
 }
