@@ -39,10 +39,10 @@ export default function Depoimentos() {
         autoplay= {{ delay: 4000}}
         loop={true}
       >
-        {depoimentos.map((dep, index) => (
-          <SwiperSlide key={index}>
+        {depoimentos.map((dep, id) => (
+          <SwiperSlide key={id}>
             <div className='depoimento-card'>
-              <p>"{dep.texto}</p>
+              <p>{dep.texto}</p>
               <h4>{dep.nome}</h4>
               <span>{dep.loja}</span>
             </div>
