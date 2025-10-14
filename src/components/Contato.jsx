@@ -63,10 +63,13 @@ export default function Contato() {
               <button className="btn-whats" type="submit">Chamar no WhastApp</button>
 
               <div className='media-item'>
-                <FiMapPin size={30} className='contato-icon'/>
+                <FiMapPin size={60} className='contato-icon'/>
                 <div className="media-texto">
                   <strong className="strong">Localização</strong>
-                  <div>Rio de Janeiro, RJ </div>
+                  <div className="loc">
+                    <h3>Rio de Janeiro, RJ</h3>
+                    <p>Atendimento em todo <strong>Brasil</strong> via atendimento <strong>Remoto</strong>.</p>
+                   </div>
                 </div>
               </div>
             </aside>

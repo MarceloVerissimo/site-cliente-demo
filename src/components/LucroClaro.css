@@ -12,6 +12,7 @@
 }
 
 .boxtotal{
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     padding: 200;
     text-align: center;
