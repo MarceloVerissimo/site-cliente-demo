@@ -2,6 +2,8 @@ import { FiMapPin } from "react-icons/fi";
 import "./Contato.css";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 export default function Contato() {
@@ -17,10 +19,11 @@ export default function Contato() {
       })
       .then(
         () => {
-          alert('Mensagem enviada com sucesso!')
+          toast.success('Mensagem enviada com sucesso!');
+          form.current.reset();
         },
         (error) => {
-          alert(error.message)
+          toast.error("Erro ao enviar o email: " + error.message)
         },
 
       );
@@ -73,7 +76,18 @@ export default function Contato() {
                 </div>
               </div>
             </aside>
-          </div>  
+          </div>
+          <ToastContainer
+            position="top-right"
+            autoClose={3000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            /> 
     </section>
   );
 }
