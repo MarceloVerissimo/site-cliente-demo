@@ -9,12 +9,23 @@ const LucroClaro = () => {
         <h2 className='h2-mentoria'>A Mentoria Lucro Claro</h2>
         <div className='boxtotal'>
         <div className='box1'>
-            <h3>Titulo do texto</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <h3>O Ciclo que Te Cansa e Não Te Traz Retorno</h3>
+                <p>Você trabalha sem parar. Vende, paga fornecedor, paga funcionário… mas quando vai ver o resultado, não sobrou nada.
+Nem lucro, nem salário.
+O dinheiro entra e desaparece, e você já nem sabe pra onde foi.
+
+Enquanto isso, as contas continuam chegando, o estoque te engole, e o medo de quebrar bate toda vez que precisa pagar mais uma despesa.
+Mas o pior não é isso.
+O pior é achar que “tá tudo bem” porque as vendas estão boas, quando, na verdade, seu negócio está sangrando silenciosamente.</p>
         </div>
         <div className='box2'>
-            <h3>Titulo do texto</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <h3>O Caminho para Parar de Vender no Escuro</h3>
+                <p>A verdade é dura, mas libertadora: você não precisa vender mais — precisa entender o seu financeiro.
+E é exatamente isso que eu faço na minha mentoria: te mostro, passo a passo, onde o dinheiro está vazando, como corrigir e como fazer o lucro finalmente sobrar no caixa.
+
+Se você continuar empurrando esse problema, o preço vai ser alto: trabalhar o mês inteiro e continuar sem ver o próprio salário.
+Mas se decidir agir agora, vai descobrir que lucro não é sorte — lucro é clareza, organização e método.
+E eu vou te guiar nesse caminho!</p>
         </div>
         </div>
     </section>

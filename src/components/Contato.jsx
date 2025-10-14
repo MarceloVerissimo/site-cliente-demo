@@ -60,7 +60,7 @@ export default function Contato() {
                 Estou aqui para ajudar você a transformar seu negócio. Entre em contato e vamos conversar sobre como podemos trabalhar juntos.
               </p>
 
-              <button className="btn-whats" type="submit">Chamar no WhastApp</button>
+              <button className="btn-whats" type="button" onClick={() => window.open("https://wa.me/5521979669091", "_blank")}>Chamar no WhastApp</button>
 
               <div className='media-item'>
                 <FiMapPin size={60} className='contato-icon'/>
@@ -68,7 +68,7 @@ export default function Contato() {
                   <strong className="strong">Localização</strong>
                   <div className="loc">
                     <h3>Rio de Janeiro, RJ</h3>
-                    <p>Atendimento em todo <strong>Brasil</strong> via atendimento <strong>Remoto</strong>.</p>
+                    <p>Atendimento em todo <strong>Brasil</strong> de forma <strong> 100% on-line</strong>.</p>
                    </div>
                 </div>
               </div>
