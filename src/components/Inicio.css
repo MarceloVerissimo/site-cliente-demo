@@ -1,21 +1,22 @@
 .inicio {
-    background: #fff;
-    display: flex;
-    align-items: center;
-    padding: 6rem 8%;
-    gap: 3rem;
-    justify-content: space-between;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 6rem 8%;
+  gap: 3rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .slogan-text {
-  flex: 1;/* controla largura do texto */
+  flex: 1;
 }
 
 .slogan-text h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 4rem;
   margin-left: 130px;
-  color: #1a2a3a; /*Cor do Slogan */
+  color: #1a2a3a;
   line-height: 120%;
   margin-bottom: 1rem;
   max-width: 500px;
@@ -30,11 +31,11 @@
 }
 
 .p1 {
-    color: #1e3354;
+  color: #1e3354;
 }
 
 .b1 button {
-  background: #cfa84c; /* dourado elegante */
+  background: #cfa84c;
   color: #fff;
   border: none;
   padding: 1rem 2rem;
@@ -63,4 +64,92 @@
   box-shadow: 0 20px 1000px rgba(0,0,0,0.1);
   background: #DCDCDC;
   padding: 0.5rem; 
+}
+
+/* ========================= */
+/*        RESPONSIVIDADE     */
+/* ========================= */
+
+/* 💻 Tablets */
+@media (max-width: 1024px) {
+  .inicio {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 5rem 6%;
+    gap: 2rem;
+  }
+
+  .slogan-text h1 {
+    font-size: 3rem;
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .slogan-text p {
+    font-size: 1.1rem;
+  }
+
+  .b1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img1 img {
+    max-width: 420px;
+  }
+}
+
+/* 📱 Celulares */
+@media (max-width: 768px) {
+  .inicio {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 5%;
+    gap: 1.5rem;
+  }
+
+  .slogan-text h1 {
+    font-size: 2.3rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .slogan-text p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .b1 button {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .img1 img {
+    max-width: 380px;
+  }
+}
+
+/* 📱 Celulares pequenos */
+@media (max-width: 480px) {
+  .inicio {
+    padding: 3rem 1.5rem;
+  }
+
+  .slogan-text h1 {
+    font-size: 1.9rem;
+  }
+
+  .slogan-text p {
+    font-size: 0.95rem;
+  }
+
+  .b1 button {
+    padding: 0.9rem 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  .img1 img {
+    max-width: 300px;
+  }
 }

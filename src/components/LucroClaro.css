@@ -1,48 +1,138 @@
 .mentorialucro {
-    text-align: center;
-    padding: 80px 20px;
-    background-color: #ffff;
-}
-
-.h2-mentoria {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #1e3354; /* Azul escuro do projeto */
-    margin-bottom: 60px;
-}
-
-.boxtotal{
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    padding: 200;
-    text-align: center;
-    width: 1550px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.box1 {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    color: #3a4a5a;
-    width: 400px;
-    height: 400px;
-    margin-bottom: 20px;
-    margin-left: 15rem;
-}
-
-.box2 {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    color: #3a4a5a;
-    width: 400px;
-    height: 400px;
-    margin-bottom: 20px;
-    margin-left: 15rem;
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #fff;
 }
 
 .sobrementoria-icon {
   font-size: 3rem;
   font-weight: 700;
-  color: #cfa84c; /*Dourado logo */
+  color: #cfa84c; /* Dourado logo */
+  margin-bottom: 1rem;
+}
+
+.h2-mentoria {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1e3354; /* Azul escuro do projeto */
+  margin-bottom: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.boxtotal {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  text-align: left;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.box1,
+.box2 {
+  background-color: #f9f8f6;
+  border-radius: 12px;
+  padding: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #3a4a5a;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box1:hover,
+.box2:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.box1 h3,
+.box2 h3 {
+  color: #1e3354;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+/* ========================= */
+/*        RESPONSIVIDADE     */
+/* ========================= */
+
+/* 💻 Tablets */
+@media (max-width: 1024px) {
+  .h2-mentoria {
+    font-size: 2.5rem;
+  }
+
+  .boxtotal {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .box1,
+  .box2 {
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .box1 h3,
+  .box2 h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* 📱 Celulares médios */
+@media (max-width: 768px) {
+  .mentorialucro {
+    padding: 60px 5%;
+  }
+
+  .h2-mentoria {
+    font-size: 2rem;
+  }
+
+  .boxtotal {
+    gap: 2rem;
+  }
+
+  .box1,
+  .box2 {
+    max-width: 100%;
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .box1 h3,
+  .box2 h3 {
+    font-size: 1.2rem;
+  }
+}
+
+/* 📱 Celulares pequenos */
+@media (max-width: 480px) {
+  .mentorialucro {
+    padding: 50px 1.5rem;
+  }
+
+  .h2-mentoria {
+    font-size: 1.7rem;
+    margin-bottom: 40px;
+  }
+
+  .box1,
+  .box2 {
+    padding: 1.2rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .box1 h3,
+  .box2 h3 {
+    font-size: 1.1rem;
+  }
 }

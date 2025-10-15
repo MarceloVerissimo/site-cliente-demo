@@ -1,14 +1,14 @@
 .beneficios {
     text-align: center;
     padding: 80px 20px;
-    background-color: #f9f8f6; /*Bege do projeto */
+    background-color: #f9f8f6; /* Bege do projeto */
 }
 
 .beneficios-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     font-weight: 700;
-    color: #1e3354; /* Azul escuro do projeto */
+    color: #1e3354; /* Azul escuro */
     margin-bottom: 70px;
 }
 
@@ -55,10 +55,118 @@
     font-size: 1.1rem;
     font-weight: 600;
     color: #1e3354;
+    margin-bottom: 10px;
 }
 
 .beneficio-p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     color: #3a4a5a;
+    max-width: 280px;
+}
+
+
+/* ========================= */
+/* RESPONSIVIDADE */
+/* ========================= */
+
+/* --- Telas grandes (até 1200px) --- */
+@media (max-width: 1200px) {
+    .beneficios-grid {
+        gap: 60px;
+        max-width: 1200px;
+    }
+}
+
+/* --- Tablets médios (até 992px) --- */
+@media (max-width: 992px) {
+    .beneficios {
+        padding: 60px 30px;
+    }
+
+    .beneficios-title {
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+    }
+
+    .beneficios-grid {
+        gap: 50px;
+    }
+
+    .beneficio-item {
+        padding: 25px 15px;
+    }
+
+    .beneficio-text {
+        font-size: 1rem;
+    }
+
+    .beneficio-p {
+        font-size: 0.95rem;
+        max-width: 260px;
+    }
+}
+
+/* --- Tablets pequenos / Celulares grandes (até 768px) --- */
+@media (max-width: 768px) {
+    .beneficios {
+        padding: 60px 20px;
+    }
+
+    .beneficios-title {
+        font-size: 2.2rem;
+        margin-bottom: 40px;
+    }
+
+    .beneficios-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .beneficio-item {
+        padding: 20px;
+    }
+
+    .beneficio-text {
+        font-size: 0.95rem;
+    }
+
+    .beneficio-p {
+        font-size: 0.9rem;
+    }
+}
+
+/* --- Celulares pequenos (até 576px) --- */
+@media (max-width: 576px) {
+    .beneficios {
+        padding: 50px 15px;
+    }
+
+    .beneficios-title {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+
+    .beneficios-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .beneficio-item {
+        padding: 20px;
+    }
+
+    .beneficio-item svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .beneficio-text {
+        font-size: 1rem;
+    }
+
+    .beneficio-p {
+        font-size: 0.9rem;
+        max-width: 100%;
+    }
 }
