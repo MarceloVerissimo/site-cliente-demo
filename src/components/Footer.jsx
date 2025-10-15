@@ -24,8 +24,8 @@ function Footer() {
 
       <div className='footer-contact'>
         <h3>Contato</h3>
-        <p>contato@mentoriallucroclaro.com.br</p>
-        <p>(21) 99999-9999</p>
+        <p>eunathaliaverissimo@gmail.com</p>
+        <p>(21) 97966-9091</p>
         <div className='footer-socials'>
           <a href="#"><i className='fab fa-instagram'></i></a>
           <a href="#"><i className='fab fa-facebook'></i></a>

@@ -32,17 +32,21 @@
 .footer-links h3,
 .footer-contact h3 {
     color: #c8a24d;
-    font-size: 1.1rem;
-    margin-bottom: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
 }
 
 .footer-links ul {
     list-style: none;
     padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px 20px;
+    margin-bottom: 20px;
 }
 
 .footer-links li {
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 
 .footer-links a {
