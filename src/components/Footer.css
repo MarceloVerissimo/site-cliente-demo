@@ -1,0 +1,81 @@
+.footer {
+    background-color: #0e1a2b; /* Azul escuro elegante */
+    color: #f9f8f6; /* Cor clara suave */
+    padding: 60px 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-brand h2 {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.footer-brand span {
+    color: #c8a24d; /* Dourado */
+}
+
+.footer-brand p {
+    margin-top: 15px;
+    color: #ccc;
+    max-width: 300px;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+    color: #c8a24d;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #f9f8f6;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #c8a24d;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+    color: #ddd;
+}
+
+.footer-socials a {
+    color: #c8a24d;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.footer-socials a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    border-top: 1px solid #333;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
