@@ -20,11 +20,11 @@ O pior é achar que “tá tudo bem” porque as vendas estão boas, quando, na 
         </div>
         <div className='box2'>
             <h3>O Caminho para Parar de Vender no Escuro</h3>
-                <p>A verdade é dura, mas libertadora: você não precisa vender mais — precisa entender o seu financeiro.
+                <p>A verdade é dura, mas libertadora: você não precisa vender mais, precisa entender o seu financeiro.
 E é exatamente isso que eu faço na minha mentoria: te mostro, passo a passo, onde o dinheiro está vazando, como corrigir e como fazer o lucro finalmente sobrar no caixa.
 
 Se você continuar empurrando esse problema, o preço vai ser alto: trabalhar o mês inteiro e continuar sem ver o próprio salário.
-Mas se decidir agir agora, vai descobrir que lucro não é sorte — lucro é clareza, organização e método.
+Mas se decidir agir agora, vai descobrir que lucro não é sorte, lucro é clareza, organização e método.
 E eu vou te guiar nesse caminho!</p>
         </div>
         </div>
