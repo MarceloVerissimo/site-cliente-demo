@@ -63,7 +63,7 @@ export default function Contato() {
                 Estou aqui para ajudar você a transformar seu negócio. Entre em contato e vamos conversar sobre como podemos trabalhar juntos.
               </p>
 
-              <button className="btn-whats" type="button" onClick={() => window.open("https://wa.me/5521980364036", "_blank")}>Chamar no WhastApp</button>
+              <button className="btn-whats" type="button" onClick={() => window.open("https://wa.me/5521979669091", "_blank")}>Chamar no WhastApp</button>
 
               <div className='media-item'>
                 <FiMapPin size={60} className='contato-icon'/>
