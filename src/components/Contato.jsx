@@ -43,16 +43,12 @@ export default function Contato() {
                 <input type="email" name='email' placeholder='seu@email.com' required/>
               </label>
               <label>
-                <span>Empresa:</span>
-                <input type="text" name='empresa' placeholder='Sua Empresa'  required/>
+                <span>Telefone:</span>
+                <input type="text" name='empresa' placeholder='(00) 91234-5678'  required/>
               </label>
               <label>
-                <span>Título:</span>
-                <input type="text" name='titulo' placeholder='Titulo Mensagem'  required/>
-              </label>
-              <label>
-                <span>Mensagem:</span>
-                <textarea name='message' rows={6} placeholder='Como posso ajudar seu negócio?' required></textarea>
+                <span>Qual é a sua maior dificuldade hoje?</span>
+                <textarea name='message' rows={6} placeholder='Compartilhe com a gente sua dificuldade' required></textarea>
               </label>
               <button className='btn-enviar' type='submit' value='Send'>Enviar Mensagem</button>
             </form>
