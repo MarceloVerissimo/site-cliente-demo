@@ -14,8 +14,8 @@ export default function Contato() {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_569xmyp', 'template_8rhs3un', form.current, {
-        publicKey: 'mpZUktwjTO_Gmt8Hp',
+      .sendForm('service_w5tzzus', 'template_q4u50ou', form.current, {
+        publicKey: 'a3GV1TxZ7zdSXoRiT',
       })
       .then(
         () => {
@@ -44,7 +44,7 @@ export default function Contato() {
               </label>
               <label>
                 <span>Telefone:</span>
-                <input type="text" name='empresa' placeholder='(00) 91234-5678'  required/>
+                <input type="text" name='empresa' placeholder='(00) 12345-6789'  required/>
               </label>
               <label>
                 <span>Qual é a sua maior dificuldade hoje?</span>
@@ -59,7 +59,7 @@ export default function Contato() {
                 Estou aqui para ajudar você a transformar seu negócio. Entre em contato e vamos conversar sobre como podemos trabalhar juntos.
               </p>
 
-              <button className="btn-whats" type="button" onClick={() => window.open("https://wa.me/5521979669091", "_blank")}>Chamar no WhastApp</button>
+              <button className="btn-whats" type="button" onClick={() => window.open("https://wa.me/5599999999999", "_blank")}>Chamar no WhastApp</button>
 
               <div className='media-item'>
                 <FiMapPin size={60} className='contato-icon'/>

@@ -6,7 +6,7 @@ const LucroClaro = () => {
   return (
     <section id='mentorialucro' className='mentorialucro'>
         <FaChartLine className="sobrementoria-icon" />
-        <h2 className='h2-mentoria'>A Mentoria Lucro Claro</h2>
+        <h2 className='h2-mentoria'>A Mentoria Lucro Real</h2>
         <div className='boxtotal'>
         <div className='box1'>
             <h3>O Ciclo que Te Cansa e Não Te Traz Retorno</h3>

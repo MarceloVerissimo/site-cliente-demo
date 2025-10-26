@@ -6,7 +6,7 @@ function Footer() {
     <footer className='footer'>
       <div className='footer-container'>
       <div className='footer-brand'>
-        <h2>Mentoria <span>Lucro Claro</span></h2>
+        <h2>Mentoria <span>Lucro Real</span></h2>
         <p>Transformando finanças de empreendedores com clareza e estratégia.</p>
       </div>
 
@@ -24,17 +24,17 @@ function Footer() {
 
       <div className='footer-contact'>
         <h3>Contato</h3>
-        <p>eunathaliaverissimo@gmail.com</p>
-        <p>(21) 97966-9091</p>
+        <p>teste.email.projetos25@gmail.com</p>
+        <p>(99) 99999-9999</p>
         <div className='footer-socials'>
-          <a href="#"><i className='fab fa-instagram'></i></a>
-          <a href="#"><i className='fab fa-facebook'></i></a>
+          <a href="https://www.instagram.com/accounts/login/"><i className='fab fa-instagram'></i></a>
+          <a href="https://www.facebook.com/?locale=pt_BR"><i className='fab fa-facebook'></i></a>
         </div>
       </div>
     </div>
 
     <div className='footer-bootom'>
-      <p>© 2025 Mentoria Lucro Claro - Todos os direitos reservados</p>
+      <p>© 2025 Mentoria Lucro Real - Todos os direitos reservados</p>
     </div>
     </footer>
   )

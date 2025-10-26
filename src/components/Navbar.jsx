@@ -17,7 +17,7 @@ function Navbar() {
             <div className='logo'>
               <span className='logo-name'>MENTORIA</span>
               <br />
-              LUCRO CLARO
+              LUCRO REAL
             </div>
           </div>
 
@@ -29,7 +29,7 @@ function Navbar() {
           <ul className={`nav-link ${menuOpen ? 'active' : ''}`}>
             <li><a href="#inicio">Início</a></li>
             <li><a href="#sobremim">Sobre Mim</a></li>
-            <li><a href="#mentorialucro">A Mentoria Lucro Claro</a></li>
+            <li><a href="#mentorialucro">A Mentoria Lucro Real</a></li>
             <li><a href="#beneficios">Benefícios</a></li>
             <li><a href="#depoimentos">Depoimentos</a></li>
             <li><a href="#contato">Contato</a></li>
