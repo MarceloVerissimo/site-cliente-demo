@@ -2,6 +2,7 @@
   "name": "web-financias",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://MarceloVerissimo.github.io/site-cliente-demo",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/dom": "^10.4.1",
@@ -15,8 +16,7 @@
     "react-scripts": "5.0.1",
     "react-toastify": "^11.0.5",
     "swiper": "^12.0.2",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://MarceloVerissimo.github.io/site-cliente-demo"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
