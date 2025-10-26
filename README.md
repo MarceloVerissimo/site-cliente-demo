@@ -36,7 +36,7 @@ Git e GitHub Pages
 💻 Demonstração
 
 Acesse a versão demo hospedada no GitHub Pages:
-👉 https://seuusuario.github.io/nome-do-projeto
+👉 https://marceloverissimo.github.io/site-cliente-demo/
 
 -----
 
