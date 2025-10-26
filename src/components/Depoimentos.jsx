@@ -11,19 +11,19 @@ export default function Depoimentos() {
       id: 1,
       name: 'Marcelo Verissimo',
       loja: 'Hortifruti Irajá',
-      texto: "Com a mentoria Lucro Claro consegui organizar minhas finanças e aumentar meu lucro em 30%.",
+      texto: "Com a mentoria Lucro Real consegui organizar minhas finanças e aumentar meu lucro em 30%.",
     },
     {
       id: 2,
       name: 'Marcelo Verissimo',
       loja: 'Hortifruti Irajá',
-      texto: "Com a mentoria Lucro Claro consegui organizar minhas finanças e aumentar meu lucro em 30%.",
+      texto: "Com a mentoria Lucro Real consegui organizar minhas finanças e aumentar meu lucro em 30%.",
     },
     { 
       id: 3,
       name: 'Marcelo Verissimo',
       loja: 'Hortifruti Irajá',
-      texto: "Com a mentoria Lucro Claro consegui organizar minhas finanças e aumentar meu lucro em 30%.",
+      texto: "Com a mentoria Lucro Real consegui organizar minhas finanças e aumentar meu lucro em 30%.",
     },
   ];
 
