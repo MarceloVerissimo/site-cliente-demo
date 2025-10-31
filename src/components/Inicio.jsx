@@ -1,21 +1,32 @@
+import React from 'react'
 import './Inicio.css';
-import imagemHome from './assets/imagemhome.png';
 
-function Inicio() {
+const Inicio = () => {
   return (
-    <section id='inicio' className='inicio'>
-        <div className='slogan-text'>
-          <h1 className='h1inicio'>O Lucro é o combustível da liberdade.</h1>
-          <p className='pinicio'>Mentoria financeira para empreendedores com <strong className='p1'>Gabriela Duarte</strong>.</p>
-          <p className='p-button'><strong>Dê o próximo passo rumo à clareza que vai transformar seu negócio.</strong></p>
-           <div className='b1'>           
-            <button onClick={() => { document.getElementById("contato").scrollIntoView({ behavior: "smooth" }); 
-                }}>Quero mais clareza agora</button>
-           </div>
-        </div>
-        <div className='img1'>
-          <img src={imagemHome} alt="Gabriela Duarte" />
-        </div>
+    <section className='seção-inicio'>
+      <div className='particulas'>
+        <div className='particula'></div>
+        <div className='particula'></div>
+        <div className='particula'></div>
+        <div className='particula'></div>
+        <div className='particula'></div>
+        <div className='particula'></div>
+        <div className='particula'></div>
+        <div className='particula'></div>
+      </div>
+
+      <div className='inicio'>
+        <h1>O Lucro é o combustível
+        <br />
+        da <span className='destaque-gold'>Liberdade.</span>
+        </h1>
+        <p>
+          Mentoria financeira para empreendedores com <strong className='strong-name'>Gabriela Duarte</strong>.
+        </p>
+        <button className='button' onClick={() => { window.open('https://form.respondi.app/98W5pboL?fbclid=PAZXh0bgNhZW0CMTEAAacuxyH2Zy-V_qONYoARHoFsbQa8KQNob4oTiKJt-mCNRsbAtJcxPMhSnZJvNA_aem_PHvJCWEfFKneyb-UeK0ULQ') }}>
+          Quero mais clareza agora
+          </button>
+      </div>
     </section>
   )
 }
